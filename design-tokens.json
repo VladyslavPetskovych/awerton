@@ -1,0 +1,35 @@
+{
+  "$description": "AWERTON brand design tokens (W3C DTCG format). `ink` and `gold` are exact brand values (Color 1 / Color 2); the remaining colours are derived from the brand kit imagery and are approximate.",
+  "color": {
+    "$type": "color",
+    "ink":   { "$value": "#171515", "$description": "Color 1 — primary dark surface (exact)" },
+    "gold":  { "$value": "#BBB399", "$description": "Color 2 — accent / logo on dark (exact)" },
+    "ivory": { "$value": "#EFEDE3", "$description": "Light surface (approx.)" },
+    "sand":  { "$value": "#B7B09A", "$description": "Neutral / sand surface (approx.)" },
+    "taupe": { "$value": "#7E7268", "$description": "Deep warm neutral surface (approx.)" },
+    "clay":  { "$value": "#7A6D60", "$description": "Logo / type on light backgrounds (approx.)" },
+    "mist":  { "$value": "#DCDCDC", "$description": "Cool light grey — template layouts (approx.)" }
+  },
+  "semantic": {
+    "$type": "color",
+    "surface-dark":    { "$value": "{color.ink}" },
+    "surface-light":   { "$value": "{color.ivory}" },
+    "surface-neutral": { "$value": "{color.sand}" },
+    "accent":          { "$value": "{color.gold}" },
+    "text-on-dark":    { "$value": "{color.ivory}" },
+    "text-on-light":   { "$value": "{color.taupe}" },
+    "logo-on-dark":    { "$value": "{color.gold}" },
+    "logo-on-light":   { "$value": "{color.clay}" }
+  },
+  "font": {
+    "$type": "fontFamily",
+    "display": { "$value": ["Noto Serif", "Georgia", "serif"], "$description": "Logotype / eyebrows — brand serif" },
+    "serif":   { "$value": ["Noto Serif", "Georgia", "serif"], "$description": "Display headings — brand serif" },
+    "sans":    { "$value": ["Roboto Flex", "system-ui", "sans-serif"], "$description": "Body & captions — brand sans" }
+  },
+  "canvas": {
+    "$type": "dimension",
+    "social-square": { "$value": "1080px", "$description": "Instagram post / profile canvas" },
+    "social-story":  { "$value": "1080px", "$description": "Story width (1080×1920)" }
+  }
+}
