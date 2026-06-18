@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Large media (exceeds GitHub 100MB limit — host on a CDN instead)
-public/main-video.mp4
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
