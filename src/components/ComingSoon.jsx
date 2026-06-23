@@ -23,6 +23,7 @@ export default function ComingSoon() {
         loop
         playsInline
         preload="auto"
+        poster="/main-video-poster.jpg"
         aria-hidden="true"
       >
         <source src="/main-video.mp4" type="video/mp4" />
@@ -45,7 +46,7 @@ export default function ComingSoon() {
         <header className="flex animate-fade-in items-center justify-between px-6 py-6 sm:px-12 sm:py-8">
           <AwertonMark className="h-8 text-gold sm:h-9" />
           <span className="font-sans text-[0.65rem] uppercase tracking-[0.35em] text-ivory/50">
-            Est. 2026
+            Est. 2013
           </span>
         </header>
 
